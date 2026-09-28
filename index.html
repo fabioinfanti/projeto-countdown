@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>npm run casamento — 10 dias</title>
+<meta name="description" content="O grande dia está quase em produção. Uma contagem regressiva feita pelo padrinho programador.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c4ff61'/%3E%3Ctext x='4' y='23' font-family='monospace' font-size='22' font-weight='bold'%3E10%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="booting">
+<header><a class="brand" href="./" aria-label="Voltar ao início"><span class="brand-icon">&gt;_</span> casamento<span class="muted">.exe</span></a><span class="edition">EDIÇÃO PADRINHO / 010</span><button id="fullscreen" class="subtle" type="button">Tela cheia <span aria-hidden="true">⛶</span></button></header>
+<main>
+<section id="boot" class="scene boot" aria-label="Carregamento" tabindex="-1">
+<div class="eyebrow">DÉBORA &amp; LUAN / SISTEMA DO GRANDE DIA</div>
+<div class="boot-symbol" aria-hidden="true">&gt;_</div>
+<h1>Inicializando<br><em>felizes para sempre.</em></h1>
+<div class="boot-meter" role="progressbar" aria-label="Carregamento do sistema" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="boot-progress"></span></div>
+<div class="boot-caption"><span id="boot-status">Aguardando seu comando.</span><span id="boot-percent">0%</span></div>
+<button id="boot-start" class="boot-start" type="button">Pressione <span class="key">ENTER ↵</span> para iniciar</button>
+</section>
+<section id="intro" class="scene intro" hidden>
+<div class="eyebrow"><span></span> O GRANDE DIA ESTÁ QUASE EM PRODUÇÃO</div>
+<h1>O amor é real.<br>O deploy <em>também.</em></h1>
+<p class="description">Duas pessoas. Uma vida inteira.<br>E um padrinho que levou a contagem regressiva a sério demais.</p>
+<div class="terminal">
+<div class="terminal-bar"><div class="lights"><i></i><i></i><i></i></div><span>padrinho@casamento: ~</span><span class="shell">bash</span></div>
+<div class="terminal-body"><div class="path">~/projetos/felizes-para-sempre <span>main*</span></div><div class="command"><span class="prompt">❯</span> npm run casamento<span class="cursor"></span></div><div class="ready">Enter avança cada etapa. Você controla o ritmo.</div></div>
+<button id="start" class="start" type="button"><span>Executar casamento</span><span class="key">ENTER ↵</span></button>
+</div>
+<div class="intro-note">Enter para avançar · R para reiniciar ao final</div>
+</section>
+<section id="running" class="scene running" hidden aria-label="Preparando o casamento" tabindex="-1">
+<div class="eyebrow">CASAMENTO.EXE / EXECUTANDO</div><div class="execution"><div class="execution-heading"><span class="prompt">❯</span> npm run casamento</div><div id="logs" class="logs"></div><div class="progress"><span id="progress"></span></div><div class="progress-caption"><span id="status">Preparando cerimônia…</span><span id="percent">0%</span></div></div>
+</section>
+<section id="final" class="scene finale" hidden aria-label="Faltam dez dias para o casamento"><div class="eyebrow">BUILD CONCLUÍDO. CORAÇÃO ACELERADO.</div><div class="number">10<span class="asterisk">*</span></div><h2>DIAS PARA O <em>SIM.</em></h2><p id="couple" class="couple">Débora &amp; Luan</p><div class="final-tag"><span>STATUS</span> quase em produção.</div><p class="closing">See you in production.</p></section>
+</main>
+<footer><span>FEITO COM CÓDIGO &amp; UM POUCO DE ANSIEDADE.</span><span id="footer-right">v.10.0 <span class="footer-slash">/</span> faltam 10 dias</span><button id="replay" class="subtle" hidden type="button">Repetir ↻</button></footer>
+<div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body></html>
+
